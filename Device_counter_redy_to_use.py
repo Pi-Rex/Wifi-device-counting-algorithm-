@@ -458,21 +458,6 @@ def device_couter(table_burst_min, dict_devices): #def device_couter(table_burst
                 num_devices += dict_devices[burst_ref]
     return num_devices # total number of devices
 
-################################
-# REAL NUMBER OF DEVICES COUNTER 
-
-# Take as input data and return the real number of devices  
-def real_device_counter(data):
-    MAC_addr = list(data.keys())
-    label_list  = []
-    i=0
-    while i < len(MAC_addr):
-        subdata = data[MAC_addr[i]]
-        label_list.append(subdata['label'])
-        i += 1
-    return len(set(label_list))
-
-
 #################
 # #  PROGRAM  # #
 #################
