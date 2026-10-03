@@ -28,8 +28,7 @@
         "ie45_rxbitmask_39to52": 0,
         "ie45_rxbitmask_53to76": 0,
         "ie221_oui_0": "20722",
-        "ie221_type_0": "8",
-        "label": 4
+        "ie221_type_0": "8"
     },
     "a6:b8:ef:18:3c:78": {
         "start_time": 1746601440.282466,
@@ -60,7 +59,6 @@
         "ie45_rxbitmask_39to52": 0,
         "ie45_rxbitmask_53to76": 0,
         "ie221_oui_0": "20722",
-        "ie221_type_0": "8",
-        "label": 4
+        "ie221_type_0": "8"
     }    
 }
